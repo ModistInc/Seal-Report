@@ -7,7 +7,7 @@
 		<Configurations>Debug;Release</Configurations>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Product>Seal Report</Product>
-		<Version>8.0.1.0</Version>
+		<Version>8.0.1.0-parla</Version>
 		<FileVersion>8.0.1.0</FileVersion>
 		<AssemblyVersion>8.0.1.0</AssemblyVersion>
 		<Description>Provides the objects to create, load and execute reports using the Seal Report framework.
@@ -22,7 +22,7 @@ A full repository file structure must be available on the machine running the pr
 		<PackageIcon>sealNugetLogo.png</PackageIcon>
 		<PackageTags>reporting;sql;linq;tasks;pdf;excel;sqlserver;scheduler,business intelligence;charts;cross tab</PackageTags>
 		<Title>Seal Report Library</Title>
-		<RepositoryUrl>https://github.com/ariacom/Seal-Report</RepositoryUrl>
+		<RepositoryUrl>https://github.com/ModistInc/Seal-Report</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Company>Ariacom</Company>
 	</PropertyGroup>
@@ -163,6 +163,7 @@ A full repository file structure must be available on the machine running the pr
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.5" />
 		<PackageReference Include="MongoDB.Driver" Version="2.23.1" />
 		<PackageReference Include="MySql.Data" Version="8.3.0" />
+		<PackageReference Include="Npgsql" Version="8.0.3" />
 		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.130" />
 		<PackageReference Include="PuppeteerSharp" Version="14.0.0" />
 		<PackageReference Include="QuestPDF" Version="2023.12.5" />
